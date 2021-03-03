@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "illegalitems",
+  "version": "${version}",
+
+  "name": "Illegal Items Mod",
+  "description": "This is a simple mod made to show all the illegal/unobtainable blocks/items which are only availalbr through commands",
+  "authors": [
+    "TheAncientNoob"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/theancientnoob/IllegalItems"
+  },
+
+  "license": "mit",
+  "icon": "assets/illegalitems/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.theancientnoob.illegalitems.IllegalItems"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
